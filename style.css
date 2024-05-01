@@ -32,7 +32,6 @@ root {
   }
   .fa-heart:hover {
     font-weight: bold;
-    transition: 0.5s;
     background: linear-gradient(0deg, #FF79DA 0%, #9356DC 100%);
     background-clip: text;
     color: transparent;
@@ -121,7 +120,6 @@ root {
     margin: 1rem 20% 4rem;
     border-radius: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    transition: 200ms;
   }
   .exploreur__button:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4), inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
@@ -180,7 +178,6 @@ root {
     background: #9356DC;
     border-radius: 50px;
     position: absolute;
-    left: -0.7rem;
   }
   
   /* Restaurants*/
@@ -211,11 +208,9 @@ root {
     background-color: white;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    transition: 300ms;
   }
   .restaurants__card:hover {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
-    transform: scale(1.05);
   }
   
   .restaurants__card--content {
@@ -425,7 +420,6 @@ root {
     margin: 3rem 26% 3rem;
     border-radius: 30px;
     text-align: center;
-    transition: 200ms;
   }
   .button-commande:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4), inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
